@@ -80,11 +80,11 @@ To reach top 3 you must win **each phase with the freshest accurate update** —
 | Element | New value |
 |---|---|
 | URL | Keep homepage `https://bdhscresult.com/` (it holds last year's equity). Do **not** create `/hsc-result-2026/` duplicates. |
-| Title (≤ 60 chars) | `HSC Result 2026 – মার্কশীটসহ এইচএসসি রেজাল্ট ২০২৬` |
-| Meta description | `HSC Result 2026 সম্ভাব্য তারিখ ২৫–২৯ অক্টোবর। মার্কশীটসহ এইচএসসি রেজাল্ট দেখুন অনলাইন ও SMS-এ (16222), সব বোর্ড, GPA ক্যালকুলেটর ও পুনঃনিরীক্ষণ।` |
-| H1 | `HSC Result 2026 – মার্কশীটসহ এইচএসসি রেজাল্ট ২০২৬` |
+| Title | `HSC Result 2026 with Marksheet – এইচএসসি রেজাল্ট ২০২৬` |
+| Meta description | `HSC Result 2026 is expected between 25–29 October. Check your HSC result with marksheet online and by SMS (16222) for all boards, plus GPA calculator and re-scrutiny guide.` |
+| H1 | `HSC Result 2026 with Marksheet – এইচএসসি রেজাল্ট ২০২৬` |
 | Live status box | "Last updated" with date + time (Asia/Dhaka) and source link, at the top |
-| Language | `lang="bn"` with English keywords kept in headings (users search both "hsc result" and "এইচএসসি রেজাল্ট") |
+| Language | English body (as before — it ranked in 2025), Bangla keyword in title/H1 + one Bangla FAQ for Bangla searches |
 | Tools | SMS builder (board + roll → ready SMS, `sms:` link), HSC GPA calculator with 4th-subject rule |
 | Sections | Date & time · How to check online · SMS · Marksheet · Alim/Vocational · GPA · Board-wise 2025 stats · 2026 stats (fill on result day) · Re-scrutiny · FAQ · Sources |
 | Schema | `NewsArticle`/`Article` with real author + `dateModified`, `FAQPage`, `BreadcrumbList`, `Organization` (FAQ rich results are limited, but markup still helps understanding) |
