@@ -1,0 +1,88 @@
+{
+  "rules_profile": "ay2026-27",
+  "assessment_year": "2026-2027",
+  "taxpayer": {
+    "name": "Karim Uddin Ahmed",
+    "nid": "1990123456789",
+    "tin": "123456789012",
+    "circle": "245",
+    "tax_zone": "Zone-11, Dhaka",
+    "resident": true,
+    "gender": "male",
+    "dob": "1984-03-15",
+    "spouse_name": "Nasrin Akter",
+    "spouse_tin": "210987654321",
+    "father_or_husband": "Abdul Ahmed",
+    "relation": "father",
+    "address": "House 12, Road 5, Block C, Mirpur-10, Dhaka 1216",
+    "mobile": "01700000000",
+    "email": "karim@example.com",
+    "employer": "ABC Textiles Ltd.",
+    "first_return": false
+  },
+  "form": {
+    "place": "Dhaka",
+    "date": "2026-11-15"
+  },
+  "salary": {
+    "private": {
+      "basic_pay": 720000,
+      "allowances": 432000,
+      "perquisites": 60000,
+      "employer_pf_contribution": 72000
+    }
+  },
+  "house_property": [
+    {"description": "2nd floor flat, House 7, Mohammadpur, Dhaka (1,200 sft)", "annual_value": 240000,
+     "type": "residential", "municipal_tax": 6000, "land_revenue": 1500}
+  ],
+  "other_income": {
+    "financial_assets": 25000,
+    "sanchayapatra_interest": 55200
+  },
+  "investments": {
+    "dps": 60000,
+    "life_insurance": 40000,
+    "rpf": 144000,
+    "listed_securities": 50000
+  },
+  "payments": {
+    "tds_salary": 48000,
+    "ait_sanchayapatra": 5520,
+    "ait_bank_interest": 2500,
+    "advance_tax": 0,
+    "challan_number": "A-2026-11-0012345"
+  },
+  "lifestyle": {
+    "food_clothing": 420000,
+    "housing": 180000,
+    "transport": 36000,
+    "utility": 54000,
+    "education": 96000,
+    "travel": 40000,
+    "festival": 30000,
+    "loan_interest": 0,
+    "comments": {"housing": "Rented flat", "education": "2 children"}
+  },
+  "wealth": {
+    "previous_net_wealth": 4400000,
+    "balancing_item": "cash",
+    "liabilities": {"institutional": 350000},
+    "assets": {
+      "non_agricultural_property": [
+        {"description": "Flat, House 7, Mohammadpur, Dhaka (1,200 sft)", "value": 3200000}
+      ],
+      "agricultural_property": [
+        {"description": "33 decimal, Savar, Dhaka", "value": 400000}
+      ],
+      "sanchayapatra_dps": 660000,
+      "debenture_bond": 50000,
+      "fdr": 100000,
+      "provident_fund": 520000,
+      "ornaments": 0,
+      "ornaments_quantity": "10 Bhori",
+      "ornaments_note": "(Gift)",
+      "furniture_electronics": 250000
+    }
+  }
+}

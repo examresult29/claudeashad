@@ -1,0 +1,4 @@
+# Taxpayer input files and generated returns hold personal data; never commit them.
+returns/
+__pycache__/
+*.pyc

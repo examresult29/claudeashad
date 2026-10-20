@@ -1,0 +1,17 @@
+{
+  "name": "claudeashad",
+  "owner": {
+    "name": "examresult29"
+  },
+  "metadata": {
+    "description": "Plugins from examresult29/claudeashad"
+  },
+  "plugins": [
+    {
+      "name": "bd-e-return",
+      "source": "./bd-e-return",
+      "description": "Bangladesh income tax return (e-Return) calculator that prints the 12-page IT-11GA 2023 return as a PDF.",
+      "version": "1.0.0"
+    }
+  ]
+}

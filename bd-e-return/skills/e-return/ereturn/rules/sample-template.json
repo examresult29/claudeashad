@@ -1,0 +1,39 @@
+{
+  "id": "sample-template",
+  "title": "Rules used by the sample Excel template (reproduces the sample PDF exactly)",
+  "basis": "Slab table and thresholds of the Finance Act 2024 structure (5% band, women Tk 4,00,000) with a flat Tk 5,000 minimum tax, exactly as the sample return was computed.",
+  "warning": "This profile copies the sample template, which still uses the older slab table (5% band). Reports on AY 2026-27 say the 5% band was removed and thresholds were raised. Use it to reproduce the sample or when you have confirmed it is right for your case.",
+  "thresholds": {
+    "general": 350000,
+    "female": 400000,
+    "senior": 400000,
+    "disabled": 475000,
+    "third_gender": 475000,
+    "war_wounded_freedom_fighter": 500000,
+    "july_joddha": 500000,
+    "parent_of_disabled_addition": 50000
+  },
+  "slabs": [
+    {"width": 100000, "rate": 0.05},
+    {"width": 400000, "rate": 0.10},
+    {"width": 500000, "rate": 0.15},
+    {"width": 500000, "rate": 0.20},
+    {"width": null, "rate": 0.25}
+  ],
+  "minimum_tax": {"mode": "flat", "amount": 5000, "first_return_amount": 5000},
+  "rebate": {"income_rate": 0.03, "investment_rate": 0.15, "cap": 1000000},
+  "private_salary_exemption": {"fraction": 0.333333333333, "cap": 450000},
+  "govt_salary_taxable_items": ["basic_pay", "festival_allowance"],
+  "house_repair_rate": {"residential": 0.25, "commercial": 0.30},
+  "surcharge": {
+    "base": "tax_payable",
+    "bands": [
+      {"upto": 40000000, "rate": 0.00},
+      {"upto": 100000000, "rate": 0.10},
+      {"upto": 200000000, "rate": 0.20},
+      {"upto": 500000000, "rate": 0.30},
+      {"upto": null, "rate": 0.35}
+    ],
+    "trigger_rate": 0.10
+  }
+}

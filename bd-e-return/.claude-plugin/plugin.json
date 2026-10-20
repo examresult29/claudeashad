@@ -1,0 +1,10 @@
+{
+  "name": "bd-e-return",
+  "version": "1.0.0",
+  "description": "Calculates a Bangladesh individual income tax return (IT-11GA 2023 with Schedules 1-5, IT-10BB, IT-10B, tax computation and tax-free income sheets) and prints it as a 12-page PDF in the layout of the sample Excel template.",
+  "author": {
+    "name": "examresult29"
+  },
+  "repository": "https://github.com/examresult29/claudeashad",
+  "keywords": ["bangladesh", "income-tax", "e-return", "nbr", "it-11ga", "it-10b", "pdf"]
+}

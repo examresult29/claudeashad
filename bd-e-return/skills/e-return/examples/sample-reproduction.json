@@ -1,0 +1,50 @@
+{
+  "rules_profile": "sample-template",
+  "assessment_year": "2026-2027",
+  "taxpayer": {
+    "name": "Sample Taxpayer",
+    "nid": "1234567890",
+    "tin": "111122223333",
+    "circle": "000",
+    "tax_zone": "Cumilla",
+    "resident": true,
+    "gender": "female",
+    "dob": "1970-01-01",
+    "father_or_husband": "Father Name",
+    "relation": "father",
+    "address": "Village A, Upazila B, District C",
+    "employer": "Upazila Health Complex",
+    "first_return": true
+  },
+  "form": {
+    "place": "Cumilla",
+    "date": "2026-10-20",
+    "special_benefit_boxes": []
+  },
+  "salary": {
+    "govt": {"basic_pay": 462648, "festival_allowance": 53160, "baishakhi_allowance": 5308}
+  },
+  "house_property": [
+    {"annual_value": 395000, "type": "residential"}
+  ],
+  "lifestyle": {
+    "food_clothing": 200000,
+    "comments": {"housing": "Family House"}
+  },
+  "wealth": {
+    "balancing_item": "gift",
+    "assets": {
+      "non_agricultural_property": [
+        {"description": "10 decimal land, Village A, Upazila B, District C", "value": 6700000},
+        {"description": "10 decimal land, Village A, Upazila B, District C", "value": 6700000}
+      ],
+      "provident_fund": 950048,
+      "ornaments": 0,
+      "ornaments_quantity": "25 Bhori",
+      "ornaments_note": "(Wedding Gifts)",
+      "furniture_electronics": 300000,
+      "furniture_note": "(Wedding Gifts)",
+      "cash_bank": 813794
+    }
+  }
+}
