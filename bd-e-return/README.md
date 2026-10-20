@@ -15,6 +15,11 @@ positions, fonts and number formats):
 How every figure is worked out, using the sample return, is in
 [docs/HOW-IT-WORKS.md](docs/HOW-IT-WORKS.md).
 
+The same calculator also comes as a WordPress plugin
+([../wordpress-plugin](../wordpress-plugin/README.md): upload
+`wordpress-plugin/dist/bd-e-return.zip`) and as an Excel workbook with live
+formulas and the 12 pages ready to print ([../excel](../excel/README.md)).
+
 ## Use it
 
 **In this repository** (Claude Code on the web or locally): the skill is already

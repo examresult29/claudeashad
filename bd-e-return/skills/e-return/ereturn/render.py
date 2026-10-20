@@ -7,6 +7,7 @@ from pathlib import Path
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.pdfgen import canvas
 
+from .calc import rnd
 from .fields import PAGES
 from .fonts import Fonts
 
@@ -16,9 +17,8 @@ EMBLEM = HERE / "assets" / "emblem.png"
 
 
 def fmt_amount(v: float) -> str:
-    n = int(round(abs(v)))
-    s = f"{n:,}"
-    return f"({s})" if v < 0 else s
+    s = f"{abs(rnd(v)):,}"
+    return f"({s})" if rnd(v) < 0 else s
 
 
 def _color(c, rgb):
@@ -145,7 +145,7 @@ class Renderer:
         if v is None:
             return
         role, size = f["font"], f["size"]
-        if round(v) == 0:
+        if rnd(v) == 0:
             if f["zero"] == "blank":
                 return
             digit = self.width("0", role, size)
@@ -153,7 +153,7 @@ class Renderer:
             self.put(c, "-", right, f["base"], role, size, "r", f["color"])
             return
         s = fmt_amount(v)
-        right = f["right"] + (self.width(")", role, size) if v < 0 else 0)
+        right = f["right"] + (self.width(")", role, size) if rnd(v) < 0 else 0)
         self.put(c, s, right, f["base"], role, size, "r", f["color"])
 
     def draw_field(self, c, f, V):

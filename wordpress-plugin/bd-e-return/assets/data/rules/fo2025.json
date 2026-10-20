@@ -1,0 +1,39 @@
+{
+  "id": "fo2025",
+  "title": "Finance Ordinance 2025 as originally announced (Tk 3,75,000 threshold)",
+  "basis": "Tk 3,75,000 general threshold, women/65+ Tk 4,25,000, 5% band removed, flat Tk 5,000 minimum tax (Tk 1,000 for a first return).",
+  "warning": "Later reports say the Finance Act 2026 raised the thresholds by Tk 25,000 for AY 2026-27. Use this only if you confirm the ordinance figures apply.",
+  "thresholds": {
+    "general": 375000,
+    "female": 425000,
+    "senior": 425000,
+    "disabled": 500000,
+    "third_gender": 500000,
+    "war_wounded_freedom_fighter": 525000,
+    "july_joddha": 525000,
+    "parent_of_disabled_addition": 50000
+  },
+  "slabs": [
+    {"width": 300000, "rate": 0.10},
+    {"width": 400000, "rate": 0.15},
+    {"width": 500000, "rate": 0.20},
+    {"width": 2000000, "rate": 0.25},
+    {"width": null, "rate": 0.30}
+  ],
+  "minimum_tax": {"mode": "flat", "amount": 5000, "first_return_amount": 1000},
+  "rebate": {"income_rate": 0.03, "investment_rate": 0.15, "cap": 1000000},
+  "private_salary_exemption": {"fraction": 0.333333333333, "cap": 500000},
+  "govt_salary_taxable_items": ["basic_pay", "arrear_pay", "festival_allowance"],
+  "house_repair_rate": {"residential": 0.25, "commercial": 0.30},
+  "surcharge": {
+    "base": "tax_payable",
+    "bands": [
+      {"upto": 40000000, "rate": 0.00},
+      {"upto": 100000000, "rate": 0.10},
+      {"upto": 200000000, "rate": 0.20},
+      {"upto": 500000000, "rate": 0.30},
+      {"upto": null, "rate": 0.35}
+    ],
+    "trigger_rate": 0.10
+  }
+}

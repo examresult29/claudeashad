@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BD e-Return</title>
+<link rel="stylesheet" href="assets/css/app.css">
+<style>body { margin: 0; padding: 24px 0; background: #e4eae6; }</style>
+</head>
+<body>
+<!-- Runs the plugin's form without WordPress. Serve this folder over http (for example
+     "python3 -m http.server" inside it) and open standalone.html; file:// pages cannot load the data files. -->
+<div class="bder-app" data-base="assets/"></div>
+<script>window.BDER_CONFIG = { assetsUrl: "assets/" };</script>
+<script src="assets/vendor/pdf-lib.min.js"></script>
+<script src="assets/vendor/fontkit.umd.min.js"></script>
+<script src="assets/js/calc.js"></script>
+<script src="assets/js/render.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
